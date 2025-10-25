@@ -1,0 +1,30 @@
+### config/config.yaml
+
+#configuration and different settings for image classification
+
+#Paths
+data_dir: "data"
+train_dir: "data/training"
+test_dir: "data/test"
+test_dir_carboard: "data/test/cardboard"
+test_dir_plastic: "data/test/plastic"
+test_dir_paper: "data/test/paper"
+test_dir_ewaste: "data/test/e-waste"
+model_dir: "model"
+model_path: "model/classifier.keras"
+
+
+#Model and data parameters
+img_size: [224, 224]
+validation_split: 0.2
+batch_size: 64
+input_shape: [224,224,3]
+base_learning_rate: 0.000001
+epochs: 70
+
+
+
+
+
+
+
